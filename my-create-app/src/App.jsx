@@ -1,10 +1,17 @@
+import Cabecalho from "./components/Cabecalho";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
+
+
 
 export default function App() {
-  
-
   return (
     <>
-    <div> Eco Urban </div>
+    <Cabecalho/>
+
+    <Main/>
+
+    <Footer/>
     </>
   )
 }
