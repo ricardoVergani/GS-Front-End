@@ -1,30 +1,141 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Krona+One&family=Montserrat:wght@400;600&family=Phudu&display=swap');
 
 .container{
     display: grid;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #3F009E;
     grid-template-columns: repeat(auto-fit,1fr);
-    grid-auto-rows: 150px;
-    gap: 20px;
+    grid-auto-rows: auto;
+    padding: 10px;
     grid-template-areas: 
     "header header header header header"
     "main   main   main   main   main"
-    "main   main   main   main   main"
     "footer footer footer footer footer"
-    
     ;
 
     header{
         grid-area: header;
         border: 1px solid black;
+        padding: 15px;
+        background-color: #2F1852;
+
+        .titulo{
+            color: #fff;
+            text-align: center;
+            text-decoration: underline;
+            margin: 40px;
+
+            h1{
+                font-family: 'Phudu', cursive;
+            }
+        }
+
+        .secoes{
+            margin: 30px;
+
+            nav{
+                display: flex;
+
+                ul{
+                    list-style: none;
+                    display: flex;
+                    flex: 1;
+    
+                    li{
+                        flex-grow: 1;
+
+                        a{
+                            display: block;
+                            text-decoration: none;
+                            font-family: 'Phudu', cursive;
+                            background-color: #210052;
+                            color: white;
+                            padding: 5px;
+                            text-align: center;
+
+                            &:hover{
+                                font-weight: bolder;
+                                text-shadow: 0 0 5px #fff, 0 0 10px #fff,0 0 20px #fff, 0 0 40px #00d9ff, 0 0 80px #00d9ff, 0 0 90px #00d9ff;
+                            }
+                        }
+    
+                    }
+                }
+            }
+
+        }
     }
 
     main{
         grid-area: main;
         border: 1px solid black;
+        color: #fff;
+        background-color: #2F1852;
+        padding: 0 30px;
+
+        .subtitulos{
+           text-align: center;
+           margin: 50px 0;
+           font-family: 'Phudu', cursive;
+        }
+
+        .imagem{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        
+        .paragrafos{
+            p{
+                text-align: justify;
+                text-indent: 2em;
+                font-family: 'Times New Roman', Times, serif;
+                line-height: 1.7;
+        }
+
+        .topicos{
+            ul{
+                list-style: none;
+                li{
+                    
+                    #idTopico{
+                        padding-left: 20px;
+
+                    }
+                }
+            }
+        }
+
+        
+        }
+        
+        .voltar{
+            margin: 40px;
+            display: flex;
+            justify-content: center;
+
+            a{
+                text-decoration: none;
+                background-color: #210052;
+                color: white;
+                padding: 5px;
+                text-align: center;
+                border-radius: 3px;
+
+                &:hover{
+                    font-weight: bolder;
+                    text-shadow: 0 0 5px #fff, 0 0 10px #fff,0 0 20px #fff, 0 0 40px #00d9ff, 0 0 80px #00d9ff, 0 0 90px #00d9ff;
+                }
+            }
+        }
     }
+    
+
+
 
     footer{
         grid-area: footer;
         border: 1px solid black;
+        background-color: #1E0F33;
     }
 }
