@@ -1,5 +1,19 @@
-
-
-header {
-  background-color: blue;
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 1fr);
+  grid-auto-rows: 150px;
+  gap: 20px;
+  grid-template-areas: "header header header header header" "main   main   main   main   main" "main   main   main   main   main" "footer footer footer footer footer";
+}
+.container header {
+  grid-area: header;
+  border: 1px solid black;
+}
+.container main {
+  grid-area: main;
+  border: 1px solid black;
+}
+.container footer {
+  grid-area: footer;
+  border: 1px solid black;
 }/*# sourceMappingURL=App.css.map */
