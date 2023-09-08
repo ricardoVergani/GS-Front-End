@@ -1,19 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Gruppo&family=Krona+One&family=Montserrat:wght@400;600&family=Phudu&display=swap");
 .container {
   display: grid;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #3F009E;
   grid-template-columns: repeat(auto-fit, 1fr);
-  grid-auto-rows: 150px;
-  gap: 20px;
-  grid-template-areas: "header header header header header" "main   main   main   main   main" "main   main   main   main   main" "footer footer footer footer footer";
+  grid-auto-rows: auto;
+  padding: 10px;
+  grid-template-areas: "header header header header header" "main   main   main   main   main" "footer footer footer footer footer";
 }
 .container header {
   grid-area: header;
   border: 1px solid black;
+  padding: 15px;
+  background-color: #2F1852;
+}
+.container header .titulo {
+  color: #fff;
+  text-align: center;
+  text-decoration: underline;
+  margin: 40px;
+}
+.container header .titulo h1 {
+  font-family: "Phudu", cursive;
+}
+.container header .secoes {
+  margin: 30px;
+}
+.container header .secoes nav {
+  display: flex;
+}
+.container header .secoes nav ul {
+  list-style: none;
+  display: flex;
+  flex: 1;
+}
+.container header .secoes nav ul li {
+  flex-grow: 1;
+}
+.container header .secoes nav ul li a {
+  display: block;
+  text-decoration: none;
+  font-family: "Phudu", cursive;
+  background-color: #210052;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+.container header .secoes nav ul li a:hover {
+  font-weight: bolder;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #00d9ff, 0 0 80px #00d9ff, 0 0 90px #00d9ff;
 }
 .container main {
   grid-area: main;
   border: 1px solid black;
+  color: #fff;
+  background-color: #2F1852;
+  padding: 0 30px;
+}
+.container main .subtitulos {
+  text-align: center;
+  margin: 50px 0;
+  font-family: "Phudu", cursive;
+}
+.container main .imagem {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.container main .paragrafos p {
+  text-align: justify;
+  text-indent: 2em;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.7;
+}
+.container main .paragrafos .topicos ul {
+  list-style: none;
+}
+.container main .paragrafos .topicos ul li #idTopico {
+  padding-left: 20px;
+}
+.container main .voltar {
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+}
+.container main .voltar a {
+  text-decoration: none;
+  background-color: #210052;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  border-radius: 3px;
+}
+.container main .voltar a:hover {
+  font-weight: bolder;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #00d9ff, 0 0 80px #00d9ff, 0 0 90px #00d9ff;
 }
 .container footer {
   grid-area: footer;
   border: 1px solid black;
+  background-color: #1E0F33;
 }/*# sourceMappingURL=App.css.map */
