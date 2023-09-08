@@ -1,5 +1,30 @@
 
 
-header{
-    background-color: blue;
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,1fr);
+    grid-auto-rows: 150px;
+    gap: 20px;
+    grid-template-areas: 
+    "header header header header header"
+    "main   main   main   main   main"
+    "main   main   main   main   main"
+    "footer footer footer footer footer"
+    
+    ;
+
+    header{
+        grid-area: header;
+        border: 1px solid black;
+    }
+
+    main{
+        grid-area: main;
+        border: 1px solid black;
+    }
+
+    footer{
+        grid-area: footer;
+        border: 1px solid black;
+    }
 }
