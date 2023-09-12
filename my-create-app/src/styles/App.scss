@@ -15,9 +15,8 @@
 
     header{
         grid-area: header;
-        border: 1px solid black;
         padding: 15px;
-        background-color: #2F1852;
+        background-color: #210052;
 
         .titulo{
             color: #fff;
@@ -68,7 +67,6 @@
 
     main{
         grid-area: main;
-        border: 1px solid black;
         color: #fff;
         background-color: #2F1852;
         padding: 0 30px;
@@ -94,6 +92,8 @@
         }
 
         .topicos{
+            display: flex;
+            padding: 40px;
             ul{
                 list-style: none;
                 li{
@@ -135,7 +135,16 @@
 
     footer{
         grid-area: footer;
-        border: 1px solid black;
         background-color: #1E0F33;
+
+        .imagem{
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            padding: 40px;
+            img{
+                height: 100%;
+            }
+        }
     }
 }

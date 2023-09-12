@@ -5,17 +5,17 @@ export default function Cabecalho(){
         <>
         <header>
             <div className="titulo"> 
-                <h1 id="home"> CHALLENGE IBM SPRINT 2 - FRONT-END DESIGN </h1>
+                <h1 id="home"> CHALLENGE IBM SPRINT 3 - FRONT-END DESIGN & WEB DEVELOPMENT WITH JAVASCRIPT </h1>
             </div>
             <div className="secoes">
                 <nav>
                     <ul>
-                        <li><a href="#smart-cities" id="smart">SmartCities</a></li>
-                        <li><a href="#problema" id="problema">Problema</a></li>
-                        <li><a href="#individuais" id="individual">Deveres Individuais</a></li>
-                        <li><a href="#coletivas" id="coletivas">Deveres Coletivos</a></li>
-                        <li><a href="#solucao" id="solucao">Nossa Ideia</a></li>
-                        <li><a href="#negativos-poluicao-positivos-solucao" id="negativosPositivos">Pontos Negativos</a></li>
+                        <li><a href="#smart-cities">SmartCities</a></li>
+                        <li><a href="#problema">Problema</a></li>
+                        <li><a href="#individuais">Deveres Individuais</a></li>
+                        <li><a href="#coletivas">Deveres Coletivos</a></li>
+                        <li><a href="#solucao">Nossa Ideia</a></li>
+                        <li><a href="#negativos-poluicao-positivos-solucao">Pontos Negativos</a></li>
                     </ul>
                 </nav>
             </div>

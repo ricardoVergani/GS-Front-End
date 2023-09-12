@@ -67,14 +67,14 @@ export default function Main(){
                     A responsabilidade coletiva envolve ações que são tomadas em conjunto por grupos de pessoas, empresas, organizações e governos para reduzir a poluição do ar. Algumas ações coletivas que podem ser tomadas incluem:
                 </p> 
             </div>
-            <br />
+            <br/>
             <div className="topicos">
                 <ul>
-                    <li id="idTopico"> Implantar políticas públicas que incentivem o uso de transportes sustentáveis. </li>
-                    <li id="idTopico"> Investir em tecnologias limpas e energias renováveis. </li>
-                    <li id="idTopico"> Implantar políticas de redução de emissões de gases de efeito estufa. </li>
-                    <li id="idTopico"> Fomentar o reflorestamento de áreas degradadas. </li>
-                    <li id="idTopico"> Educar a população sobre os riscos da poluição do ar e como reduzi-la </li>
+                    <li id="idTopico">Implantar políticas públicas que incentivem o uso de transportes sustentáveis.</li>
+                    <li id="idTopico">Investir em tecnologias limpas e energias renováveis.</li>
+                    <li id="idTopico">Implantar políticas de redução de emissões de gases de efeito estufa.</li>
+                    <li id="idTopico">Fomentar o reflorestamento de áreas degradadas.</li>
+                    <li id="idTopico">Educar a população sobre os riscos da poluição do ar e como reduzi-la </li>
                 </ul>
             </div>
         
