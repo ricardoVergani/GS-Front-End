@@ -110,4 +110,18 @@
 }
 .container footer .imagem img {
   height: 100%;
+}
+
+@media (max-width: 580px) {
+  .titulo h1 {
+    font-size: 22px;
+  }
+  .secoes nav ul {
+    flex-direction: column;
+  }
+}
+@media (max-width: 435px) {
+  .container {
+    padding: 0;
+  }
 }/*# sourceMappingURL=App.css.map */
